@@ -1,0 +1,35 @@
+/* Centraliza a tabela na tela */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(210, 20%, 98%);
+}
+
+/* Estilo da tabela */
+.centered-table {
+    width: 50dvw;
+    height: 30dvh;
+    background-color: hsl(0, 0%, 100%);
+    border-collapse: collapse;
+    box-shadow: 0 0 10svh hsl(0, 0%, 80%);
+}
+
+/* Estilo do cabeçalho da tabela */
+.centered-table thead th {
+    font-size: 2lvh;
+    color: hsl(210, 50%, 40%);
+    padding: 1lvh;
+    text-align: left;
+}
+
+/* Estilo para o corpo da tabela */
+.centered-table tbody td {
+    font-size: 1.8svh;
+    color: hsl(210, 20%, 30%);
+    padding: 1lvh;
+}
